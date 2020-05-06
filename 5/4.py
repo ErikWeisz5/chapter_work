@@ -1,0 +1,8 @@
+L = int(input("Average Monthly Loan Cost"))
+I = int(input("Monthly Insurance cost"))
+G = int(input("Average gas costs"))
+O = int(input("Average oil costs"))
+T = int(input("Average tire maintanence cost"))
+m = (T + O + G + I + L)
+print(m, "is the cost per month.")
+print(m * 12, "is the cost per year")
